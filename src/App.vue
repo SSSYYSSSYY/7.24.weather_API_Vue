@@ -14,7 +14,7 @@ export default{
   },
   methods: {
     getWeatherData(){
-      fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-D152C3EB-4FD1-4CFB-9DFE-2211DA455FBE")
+      fetch("https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-17A3E8A1-892B-4403-8A8E-E231880BD3CF")
         .then(res => res.json())
         .then(data => {
           console.log(data);
