@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: url("../../public/bg-img.svg") no-repeat center rgb(222, 237, 237) ;
+
+}
